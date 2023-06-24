@@ -19,6 +19,7 @@ body{
   }
   ::-webkit-scrollbar-thumb {
     background: #ff0000;
+    border-radius: 25px;
   }
   ::-webkit-scrollbar-thumb:hover {
     background: #bf000a;
@@ -837,11 +838,6 @@ header#main-header.menu-sticky{
     display: inline-block;
     width: 50px;
     filter: invert(1);
-}
-.playbtn img:hover{
-    background: #e50914;
-    border-radius: 50%;
-    filter: invert(0);
 }
 .w-trailor{
     font-size: 17px;
@@ -1677,6 +1673,10 @@ li.slide-item .block-description .parallax-ratting span{
 }
 .parallax-img img{
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+    transition: 0.6s;
+}
+.parallax-img img:hover{
+    transform: scale(1.1);
 }
 .parallax-window{
     height: 100%;
@@ -1687,13 +1687,13 @@ li.slide-item .block-description .parallax-ratting span{
     background-attachment: fixed ;
 }
 .parallax-window::after{
-position: absolute;
-content: "";
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
 }
 .parallaxt-details{
     z-index: 9;
