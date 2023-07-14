@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/sushi.png" />
+    <link rel="icon" type="image/png" href="/logo" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/global/css/icon.css">
     <title>9A Class</title>
   </head>
   <body>
@@ -15,25 +18,6 @@
           <h4 data-aos="fade-down" style="color: #000;">9A Class</h4>
           <div class="header__logo-overlay"></div>
         </div>
-
-        <ul class="header__menu" data-aos="fade-down">
-          <li>
-            <a href="#about-us">Goals</a>
-          </li>
-          <li>
-            <a href="#students">Students</a>
-          </li>
-          <li>
-            <a href="#ahciev">Achievements</a>
-          </li>
-          <li>
-            <a href="#creation">Creation</a>
-          </li>
-          <li>
-            <img src="../components/assets/menu.svg" alt="search" style="display: none;" />
-          </li>
-        </ul>
-
         <ul class="header__menu-mobile" data-aos="fade-down" style="display: none;">
           <li>
             <img src="../components/assets/menu.svg" alt="menu" />
@@ -53,7 +37,6 @@
         <h2 data-aos="fade-up">
           9 <br />
           A <br />
-          
         </h2>
 
         <div class="hero-image__overlay"></div>
@@ -62,7 +45,12 @@
       <div class="hero-content">
         <div class="hero-content-info" data-aos="fade-left">
           <h1>Hi, We Are From SCB Citra Berkat!</h1>
-          <p></p>
+          <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-youtube"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
 
           <div class="hero-content__buttons">
             <a href="#about-us"><button class="hero-content__order-button">See More!</button></a>
@@ -74,27 +62,16 @@
           </div>
         </div>
 
-        <div class="hero-content__testimonial" data-aos="fade-up">
-          <div class="hero-content__customer flex-center">
-            <h4>Headmaster</h4>
-            <p></p>
-          </div>
-
-          <div class="hero-content__customer flex-center">
-            <h4>Homeroom</h4>
-            <p></p>
-          </div>
-        </div>
-      </div>
     </section>
 
     <section class="about-us" id="about-us">
       <div class="about-us__image">
         <div class="about-us__image-sushi3">
-          <img src="../components/images/temporary.jpg" alt="headmaster" data-aos="fade-right" />
+          <img src="../components/images/temporary.jpg" alt="headmaster" data-aos="fade-right"/>
         </div>
+
         <div class="about-us__image-sushi3">
-          <img src="../components/images/temporary.jpg" alt="headmaster" data-aos="fade-right" />
+          <img src="../components/images/temporary.jpg" alt="headmaster" data-aos="fade-right"/>
         </div>
       </div>
 
@@ -106,6 +83,80 @@
       </div>
     </section>
 
+
+
+
+
+
+
+
+
+    <section class="popular-foods" id="students">
+      <h2 class="popular-foods__title" data-aos="flip-up">Our Homeroom</h2>
+
+      <div class="popular-foods__filters sushi__hide-scrollbar" data-aos="fade-up">
+
+      <div class="popular-foods__catalogue" data-aos="fade-up">
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Ms. Mita</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
+            </p>
+          </div>
+        </article>
+    </section>
+
+    <section class="popular-foods" id="students">
+      <h2 class="popular-foods__title" data-aos="flip-up">Head Of Class & Representative</h2>
+
+      <div class="popular-foods__filters sushi__hide-scrollbar" data-aos="fade-up">
+
+      <div class="popular-foods__catalogue" data-aos="fade-up">
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">#</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
+            </div>
+
+            <p class="popular-foods__card-price"></p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">#</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
+            </div>
+          </div>
+        </article>
+    </section>
+
+
+
+
+
+
     <section class="popular-foods" id="students">
       <h2 class="popular-foods__title" data-aos="flip-up">Students</h2>
 
@@ -113,12 +164,16 @@
 
       <div class="popular-foods__catalogue" data-aos="fade-up">
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Alykha</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -126,22 +181,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Angel</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Daniel Matthew</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -149,22 +212,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Dominick </h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Evanlino</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -172,22 +243,46 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Fransisco</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">George Taddeus</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
+            </div>
+
+            <p class="popular-foods__card-price"></p>
+          </div>
+        </article>
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Glenn</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -195,22 +290,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Hans</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Jaysen</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -218,22 +321,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Jeremy</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Jocelyn</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -241,22 +352,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Sydney</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Jucelino</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -264,22 +383,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Keisha</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Sheba</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -287,22 +414,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Michelle</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Moses</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -310,22 +445,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Nichie</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Raffael</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -333,22 +476,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Raga</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Randy</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -356,22 +507,30 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Sekar</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Shandy</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
 
             <p class="popular-foods__card-price"></p>
@@ -379,39 +538,19 @@
         </article>
 
         <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
+          <img class="popular-foods__card-image" src="../components/images/students/usr.png" alt="user" />
+          <h4 class="popular-foods__card-title">Avatar</h4>
 
           <div class="popular-foods__card-details flex-between">
             <div class="popular-foods__card-rating">
-              <p></p>
+              <p class="link">
+                <li>
+                  <a href=""><i class="bx bxl-spotify"></i></a>
+                  <a href=""><i class="bx bxl-instagram"></i></a>
+              </li>
             </div>
           </div>
         </article>
-        <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
-
-          <div class="popular-foods__card-details flex-between">
-            <div class="popular-foods__card-rating">
-              <p></p>
-            </div>
-
-            <p class="popular-foods__card-price"></p>
-          </div>
-        </article>
-
-        <article class="popular-foods__card">
-          <img class="popular-foods__card-image" src="../components/assets/usr" alt="user" />
-          <h4 class="popular-foods__card-title">#</h4>
-
-          <div class="popular-foods__card-details flex-between">
-            <div class="popular-foods__card-rating">
-              <p></p>
-            </div>
-          </div>
-        </article>
-      </div>
     </section>
 
     <section class="trending" id="ahciev">
@@ -455,22 +594,6 @@
       <h3 class="footer__logo">
         <span></span>
       </h3>
-
-      <ul class="footer__nav">
-        <li>
-          <a href="#about-us">Goals</a>
-        </li>
-        <li>
-          <a href="#students">Students</a>
-        </li>
-        <li>
-          <a href="#ahciev">Achievements</a>
-        </li>
-        <li>
-          <a href="#about-us">Creation</a>
-        </li>
-      </ul>
-
       <ul class="footer__social" style="display: none;">
         <li class="flex-center">
           <img src="../components/assets/facebook.svg" alt="facebook" />
@@ -483,7 +606,7 @@
         </li>
       </ul>
     </footer>
-
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
     <script src="../js/script.js" type="module"></script>
   </body>
 </html>

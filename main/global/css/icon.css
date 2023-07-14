@@ -1,0 +1,31 @@
+li{
+    list-style: none;
+}
+.bx{
+    font-size: 35px;
+    margin: 2rem;
+}
+.bxl-instagram{
+    color: magenta;
+    transition: .3s;
+}
+.bxl-instagram:hover{
+    color: rgba(255, 0, 255, 0.6);
+    transform: scale(1.2);
+}
+.bxl-spotify{
+    color: rgb(101, 226, 101);
+    transition: .3s;
+}
+.bxl-spotify:hover{
+    color: rgba(101, 226, 101, 0.6);
+    transform: scale(1.2);
+}
+.bxl-youtube{
+    color: red;
+    transition: .3s;
+}
+.bxl-youtube:hover{
+    color: rgba(255, 0, 0, .6);
+    transform: scale(1.2);
+}

@@ -1,14 +1,12 @@
 .header__nav {
-  position: fixed;
-  z-index: 10;
   display: flex;
   overflow: hidden;
-  backdrop-filter: blur(5px);
 }
 
 .header__logo {
   flex: 1;
   display: flex;
+
   position: relative;
   padding: 20px;
 }
@@ -17,6 +15,8 @@
   position: absolute;
   inset: 0;
   width: 100%;
+
+  background-color: var(--primary-color);
   z-index: -1;
 }
 
@@ -61,6 +61,6 @@
 .header__menu-mobile {
   display: none;
   gap: 20px;
-  backdrop-filter: blur(5px);
+
   position: relative;
 }

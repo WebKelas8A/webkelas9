@@ -37,6 +37,7 @@
   font-weight: 700;
   font-size: 120px;
   line-height: 138px;
+  color: #fff;
 }
 
 .hero-content {
@@ -158,11 +159,11 @@
   min-width: 200px;
 }
 
-/*.hero-content__review img {
+.hero-content__review img {
   width: 42px;
   height: 42px;
   object-fit: contain;
-}*/
+}
 
 .hero-content__review p {
   font-size: 12px;
