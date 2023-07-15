@@ -9,9 +9,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  background: var(--color-white);
-
   position: relative;
 }
 
@@ -28,7 +25,7 @@
 }
 
 .about-us__image-sushi3 {
-  border-bottom: 8px solid var(--color-creamson);
+  border-bottom: 8px solid #191919;
 
   background-image: url("../../assets/about_bg1.png")
 }
@@ -40,8 +37,11 @@
 .about-us__image-sushi3 img {
   width: 225px;
   height: 200px;
+  transition: .6s;
 }
-
+.about-us__image-sushi3 img:hover{
+  scale: 1.2;
+}
 .about-us__image-sushi2 img {
   width: 240px;
   height: 160px;

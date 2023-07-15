@@ -93,11 +93,8 @@
 
 .trending__image {
   flex: 1;
-
   position: relative;
   padding: 32px 64px;
-
-  background-color: var(--color-white);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -115,6 +112,10 @@
   width: 254px;
   height: 260px;
   object-fit: contain;
+  transition: .6s;
+}
+.trending__image img:hover{
+  scale: 1.2;
 }
 
 /* Arrows */
