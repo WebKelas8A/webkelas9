@@ -39,9 +39,7 @@
   height: 200px;
   transition: .6s;
 }
-.about-us__image-sushi3 img:hover{
-  scale: 1.2;
-}
+
 .about-us__image-sushi2 img {
   width: 240px;
   height: 160px;
