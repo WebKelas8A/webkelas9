@@ -6,7 +6,6 @@
 @import url("../css/section/popular.css");
 @import url("../css/section/trending.css");
 @import url("../css/section/footer.css");
-
 :root {
   --playfair-display: "Playfair Display", serif;
   --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
