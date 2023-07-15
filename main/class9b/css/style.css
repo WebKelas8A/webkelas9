@@ -24,7 +24,18 @@
   --color-white: #fff;
   --color-creamson: #fff0de;
 }
-
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #191919;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bf000a;
+}
 * {
   margin: 0;
   padding: 0;
