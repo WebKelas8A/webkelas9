@@ -114,9 +114,6 @@
   object-fit: contain;
   transition: .6s;
 }
-.trending__image img:hover{
-  scale: 1.2;
-}
 
 /* Arrows */
 .trending__arrow {
