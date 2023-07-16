@@ -15,8 +15,6 @@ article.show{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     line-height: 5.9rem;
 }
-
-
 .char{
     transform: translateY(205px);
     transition: transform .5s;
