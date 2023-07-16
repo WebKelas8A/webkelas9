@@ -1,0 +1,10 @@
+article{
+    transform: translateX(400%);
+    transform: transform .4s ease;
+}
+article:nth-last-of-type(even){
+    transform: translateX(-400%); 
+}
+article.show{
+    transform: translateX(0);
+}
