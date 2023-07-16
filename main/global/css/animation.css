@@ -2,9 +2,22 @@ article{
     transform: translateX(400%);
     transform: transform .4s ease;
 }
-article:nth-last-of-type(even){
+article{
     transform: translateX(-400%); 
 }
 article.show{
     transform: translateX(0);
+}
+.text{
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    line-height: 5.9rem;
+}
+
+
+.char{
+    transform: translateY(205px);
+    transition: transform .5s;
 }

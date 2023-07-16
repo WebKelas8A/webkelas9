@@ -1,0 +1,6 @@
+::selection {
+    color: rgb(255, 0, 0);
+    background: rgb(255, 255, 255, .1);
+    box-sizing: border-box;
+    padding: 2px;
+}

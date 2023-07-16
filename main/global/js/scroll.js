@@ -14,3 +14,22 @@ window.addEventListener('scroll', activeBox)
             }
         })
     }
+
+const title = new SplitType('#text')
+
+gsap.to('.char', {
+    y: 0,
+    stagger: 0.06,
+    delay: 0.2,
+    duration: .5
+})
+
+const icon = new SplitType('#icon')
+
+gsap.to('.ic', {
+    y: 0,
+    stagger: 0.06,
+    delay: 0.2,
+    duration: .5
+})
+

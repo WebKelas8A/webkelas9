@@ -1,5 +1,5 @@
 .popular-foods {
-  padding: 64px;
+  padding: 100px;
   display: flex;
   flex-direction: column;
   background-color: var(--primary-color);
