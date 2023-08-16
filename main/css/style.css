@@ -1106,6 +1106,7 @@ li.slide-item:hover .block-images{
     opacity: 0;
 }
 .block-description{
+    margin-top: 120px;
     position: absolute;
     left: 25px;
     top: 0;
@@ -1120,6 +1121,7 @@ li.slide-item:hover .block-images{
     font-size: 1.5em;
 }
 .block-description .iq-title{
+    position: relative;
     font-size: 18px;
     color: #fff;
     text-transform: capitalize;
