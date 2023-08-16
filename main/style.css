@@ -61,3 +61,21 @@ span{
     opacity: 0;
     transition: ease-in-out 0.5s
 }
+section{
+    background-color: #1B1A1A;
+}
+video{
+    padding: 130px 0 50px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+@media (max-width : 360px){
+    section video{
+        background: url(/video/DIRGAHAYU\ REPUBLIK\ INDONESIA.mp4);
+    }
+}
