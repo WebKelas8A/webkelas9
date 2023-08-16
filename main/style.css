@@ -11,6 +11,7 @@
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
+    background-color: #161616;
 }
 header{
     position: relative;
@@ -43,12 +44,14 @@ header h4{
     transform: translate(-50%, -50%);
     color: #ff0000;
 }
-
 span{
     position: relative;
     display: inline-block;
     bottom: -20px;
     opacity: 0;
+    background: linear-gradient(to top, #ffffff 50%, #ff0000 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .logo.active{
     bottom: 0;
@@ -61,21 +64,18 @@ span{
     opacity: 0;
     transition: ease-in-out 0.5s
 }
-section{
-    background-color: #1B1A1A;
+
+.classLogo.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
 }
-video{
-    padding: 130px 0 50px;
-    width: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    position: relative;
-    z-index: 1;
+
+.classLogo.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s
 }
-@media (max-width : 360px){
-    section video{
-        background: url(/video/DIRGAHAYU\ REPUBLIK\ INDONESIA.mp4);
-    }
+.classLogo{
+    text-align: center;
 }
