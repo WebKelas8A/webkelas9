@@ -1718,7 +1718,7 @@ li.slide-item .block-description .parallax-ratting span{
 }
 @media (max-width : 767px){
     .parallax-window{
-        padding: 60px 0;
+        display: none;
     }
     .parallax-heading{
         font-size: 35px;
