@@ -44,7 +44,7 @@ header h4{
     transform: translate(-50%, -50%);
     color: #ff0000;
 }
-span{
+/* span{
     position: relative;
     display: inline-block;
     bottom: -20px;
@@ -52,7 +52,7 @@ span{
     background: linear-gradient(to top, #ffffff 50%, #ff0000 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 .logo.active{
     bottom: 0;
     opacity: 1;
@@ -78,4 +78,7 @@ span{
 }
 .classLogo{
     text-align: center;
+}
+.none{
+    display: none;
 }
