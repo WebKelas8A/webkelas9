@@ -2401,3 +2401,24 @@ footer .footer-top .info-share li a::before{
 
 
 /* Other */
+
+
+.bx{
+    font-size: 1.6rem;
+}
+.bxl-spotify{
+    color: rgb(65, 187, 65);
+    transition: .4s;
+}
+.bxl-spotify:hover{
+    scale: 1.1;
+    color: green;
+}
+.bxl-instagram{
+    color: magenta;
+    transition: .4s;
+}
+.bxl-instagram:hover{
+    color: rgb(230, 103, 230);
+    scale: 1.1;
+}
